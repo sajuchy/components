@@ -1,0 +1,72 @@
+.mh4{
+    height: 400px;
+}
+
+
+.carousel-indicators [data-bs-target]{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    
+}
+
+
+
+.carousel-control-prev-icon{
+   background-image: url(../img/skip_previous_black_24dp.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 4;
+   
+}
+.carousel-control-next-icon{
+    background-image: url(../img/skip_next_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 4;
+}
+
+
+
+.nav-item a{
+    font: 400;
+    color: #161616;
+    transition:all .3s ;
+
+}
+
+.nav-item a:hover{
+    background: rgb(12, 174, 214);
+    color: black;
+}
+
+
+.nav .nav-link{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.nav .nav-link:hover{
+    color: red;
+    background: yellow;
+}
+
+.page-item .page-link{
+    /* text-decoration: none; */
+    color: black;
+    transition: .3s;
+}
+.page-item .page-link:hover{
+    color: darkred;
+    background: rgb(2, 195, 243);
+}
+
+
+body{
+    position: relative;
+}
+.container{
+    margin-bottom: 3rem;
+}
+
+

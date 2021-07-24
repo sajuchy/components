@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  CSS link here -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>BTS5</title>
+  </head>
+  <body class="body">
+
+    <div class="container">
+      <nav id="navbar-example2" class="navbar navbar-dark bg-info px-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#row">Slide</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#slide">Slide with Cap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#s-modal">Modal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nav-tab">Nav-Tab</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              
+              <li><a class="dropdown-item" href="#offcanvas">Offcanvas</a></li>
+              <li><a class="dropdown-item" href="#paggi">Paggination</a></li>
+              <li><hr class="dropdown-divider"></li>
+              
+              <li><a class="dropdown-item" href="#spinner">Spinner</a></li>
+              <li><a class="dropdown-item" href="#toasti">Toast</a></li>
+              <li><a class="dropdown-item" href="#tool">ToolTip</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <h4 id=""></h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, laudantium, quaerat blanditiis magnam eligendi inventore, omnis sapiente architecto dicta quia reiciendis culpa vel eos nostrum! Quisquam minima in error minus?</p>
+        <h4 id="scrollspyHeading2">Second heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quisquam sed cumque modi aut nam praesentium et tempore? Quaerat voluptas porro impedit iusto libero blanditiis nulla vitae, at nostrum excepturi?</p>
+        <h4 id="scrollspyHeading3">Third heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sed nam non possimus, cum unde quas minus. Excepturi molestiae veniam ullam molestias corporis voluptates, similique veritatis vel qui! Repellendus, temporibus?</p>
+        <h4 id="scrollspyHeading4">Fourth heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At tempora fuga minus, nulla repellat harum consequatur molestiae. Hic amet ut excepturi cupiditate unde veritatis! Eum iste autem at inventore. Quod.</p>
+        <h4 id="scrollspyHeading5">Fifth heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis distinctio architecto, a dolore veritatis recusandae velit suscipit molestias fuga neque similique asperiores, natus illo dolores quibusdam. Minus corporis esse et!</p>
+      </div> -->
+    </div>
+    <!-- carousel start here -->
+    <section class="container " id="row">
+      <h1 class="text-center display-2 text-warning mb-5">Carousel Slide-1</h1>
+        <div class="row justify-content-center mh4" >
+          <div class="col-lg-6">
+            <div id="car-1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                  <img src="img/p1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="img/p2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="img/p3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                  <img src="img/p4.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <!-- <button class="carousel-control-prev" type="button" data-bs-target="#car-1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#car-1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button> -->
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div id="slide-2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slide-2" data-bs-slide-to="0"  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#slide-2" data-bs-slide-to="1" class="active" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slide-2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#slide-2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item ">
+                  <img src="img/p1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item active">
+                  <img src="img/p2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/p3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/p4.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#slide-2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#slide-2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <section class="container" id="slide">
+      <h1 class="text-center display-1 text-primary mt-5 mb-5">Slide with Caption</h1>
+      <div class="row">
+        <div class="col-lg">
+          <div id="neo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#neo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#neo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#neo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#neo" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/p4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-dark display-6 bg-info">Colors of Joy</h5>
+                  <p class="text-dark">Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/p3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-6">Dream Set-Up</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/p2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-6 text-warning bg-primary">To Become a Great Designer</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/p1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-6 text-success bg-warning">Dream Set-Up</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+            </div>
+              
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+    </section>
+     <!-- carousel start here -->
+      <!-- Modal start here -->
+    <section class="sec mt-5" id="s-modal">
+      <div class="container text-center">
+        <h1 class="text-light bg-primary display-1 mb-5">Scrollable Modal</h1>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">
+        Confirmation
+        </button>
+
+        <!-- Modal -->
+          <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalLabel">Remainder</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h1>Notice</h1>
+                  <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, facilis recusandae voluptatum ratione fugiat nostrum quam a est neque architecto! Eius natus totam eaque autem similique cumque suscipit ipsa qui alias, adipisci laudantium quis ipsum itaque accusamus magni blanditiis repudiandae deleniti? Aliquid harum, quo porro inventore ducimus amet. Vitae mollitia quidem, id ipsam consequuntur tenetur labore alias repudiandae nemo rem cupiditate maiores voluptatem laudantium ipsa laboriosam asperiores aliquam quae autem accusamus itaque animi aliquid pariatur! Suscipit tempora eos magnam delectus perferendis? Eum culpa dolores incidunt soluta! Itaque eos, libero dolor vel maxime error ipsa harum, mollitia ipsum at, provident eum!
+                    uta! Itaque eos, libero dolor vel maxime error ipsa harum, mollitia ipsum at, provident eum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, facilis recusandae voluptatum ratione fugiat nostrum quam a est neque architecto! Eius natus totam eaque autem similique cumque suscipit ipsa qui alias, adipisci laudantium quis ipsum itaque accusamus magni blanditiis repudiandae deleniti? Aliquid harum, quo porro inventore ducimus amet. Vitae mollitia quidem, id ipsam consequuntur tenetur labore alias repudiandae nemo rem cupiditate maiores voluptatem laudantium ipsa laboriosam asperiores aliquam quae autem accusamus itaque animi aliquid pariatur! Suscipit tempora eos magnam delectus perferendis? Eum culpa dolores incidunt soluta! Itaque eos, libero dolor vel maxime error ipsa harum, mollitia ipsum at, provident eum!
+                    uta! Itaque eos, libero dolor vel maxime error ipsa harum, mollitia ipsum at, provident eum!
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">No</button>
+                  <button type="button" class="btn btn-outline-success">Yes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+       
+    </section>
+    <!-- modal end here -->
+
+
+    <section class="container" id="nav-tab">
+        <h1 class="text-center display-1 text-secondary mt-5">Nav Tab</h1>
+      <div class="nav  nav-pills justify-content-end">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Docs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled bg-warning" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+      <h1 class="text-center display-1 text-secondary mt-5 mb-5 bg-warning"> Vertical Nav Tab</h1>
+      <div class="nav justify-content-center nav-pills">
+        <nav class="nav flex-column">
+          <a class="nav-link active nav-pills" aria-current="page" href="#">Active</a>
+          <a class="nav-link" href="#">Docs</a>
+          <a class="nav-link" href="#">Download</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+      </div>
+      <h1 class="text-center display-1 text-light mt-5 mb-5 bg-danger">nav tab with drop down</h1>
+      <div class="nav justify-content-center">
+        
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+      <!-- offcanvas start here -->
+   <section class="container" id="offcanvas">
+    <h1 class="text-center display-1 text-light mt-5 mb-5 bg-danger">offcanvas backdrops</h1>
+      <div>
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
+    <button class="btn btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">Enable backdrop (default)</button>
+    <button class="btn btn-outline-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
+    
+    <div class="offcanvas offcanvas-start bg-dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-light" id="offcanvasScrollingLabel">Colored with scrolling</h5>
+        <button type="button" class="btn-close text-reset btn-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body ">
+        <h1 class="text-light">Hello World</h1>
+        <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus eum in error nesciunt doloribus reprehenderit adipisci labore eligendi corrupti vitae excepturi, fuga laborum incidunt! Laborum ducimus quaerat, quis minus quae modi facilis laudantium aliquid omnis deleniti eligendi, labore saepe. Quod illum vero voluptatibus? Quasi architecto vel voluptatibus iste, nostrum aut.</p>
+        <button class="btn-warning btn-rounded">Agree</button>
+        <button class="btn-warning btn-rounded">Disagree</button>
+      </div>
+    </div>
+    <div class="offcanvas offcanvas-start bg-info" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Offcanvas with backdrop</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="offcanvas offcanvas-start bg-danger" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdroped with scrolling</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <nav class="nav flex-column">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+          <a class="nav-link" href="#">Download</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+      </div>
+    </div>
+      </div>
+   </section>
+
+   <section class="container" id="paggi">
+    <h1 class="text-center display-1 text-light mt-5 mb-5 bg-danger">Paggination</h1>
+      <div class="">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link " href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link " href="#">1</a></li>
+            <li class="page-item"><a class="page-link " href="#">2</a></li>
+            <li class="page-item"><a class="page-link " href="#">3</a></li>
+            <li class="page-item"><a class="page-link " href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+      <h1 class="text-center display-1 text-light mt-5 mb-5 bg-danger">progress meter</h1>
+      <div class="progress mb-5">
+        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      </div>
+      <div class="progress mb-5">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+      </div>
+      <div class="progress mb-5">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+      </div>
+      
+   </section>
+
+   
+
+
+   <section class="container" id="spinner">
+    <h1 class="text-center display-1 text-light mt-5 mb-5 bg-danger">spinners</h1>
+      <div class="text-center">
+        <div class="spinner-border text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-secondary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-success" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-danger" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-warning" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-info" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-light" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-dark" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+      <div>
+        <div class="d-flex align-items-center">
+          <strong>Loading...</strong>
+          <div class="spinner-border text-info ms-auto" role="status" aria-hidden="true"></div>
+        </div>
+      </div>
+   </section>
+
+   <section class="container" id="toasti">
+    <h1 class="text-center display-1 text-light mt-5 mb-5 bg-danger">Toast</h1>
+    
+      <div class="row">
+        <div class="col-lg-12">
+          <button class=" btn btn-success" onclick="Toasty()"> Toast me up</button>
+          <div class="toast" id="EpicToast" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-header">
+                  <strong class="me-auto">Bts Auto </strong>
+                  <small>I want some toast</small>
+                  <button type="button" class="ms-2 mb-1 btn-close" data-dismiss="toast" aria-label="close">
+                    <!-- <span aria-hidden="true">&times;</span> -->
+                  </button>
+              </div>
+              <div class="toast-body">
+                <img src="img/p1.jpg" class="img-fluid" alt="">
+                  Hello World
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="tool">
+        <h1 class="text-center display-1 text-light mt-5 mb-5 bg-danger">ToolTip</h1>
+
+        <div class="text-center d-flex justify-content-between">
+          <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+            Tooltip on top
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+            Tooltip on right
+          </button>
+          <button type="button" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+            Tooltip on bottom
+          </button>
+          <button type="button" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+            Tooltip on left
+          </button>
+        </div>
+      </div>
+      
+    
+   </section>
+
+    
+    
+
+    <!-- js link here -->
+    
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    
+   
+  </body>
+</html>
